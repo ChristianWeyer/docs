@@ -327,7 +327,8 @@ master:
 
 {{% codetab %}}
 {{% alert title="Note" color="warning" %}}
-Azure Redis managed service does not support the RedisJson module and cannot be used with query.
+Azure Cache for Redis managed service does support the RedisJson module in preview for Azure Cacce for Redis Enterprise. All other tiers cannot be used with RedisJson-based query.
+(See https://azure.microsoft.com/en-us/updates/public-preview-redisjson-available-in-azure-cache-for-redis-enterprise/)
 {{% /alert %}}
 
 {{% /codetab %}}
